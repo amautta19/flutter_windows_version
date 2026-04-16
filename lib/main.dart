@@ -7,7 +7,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // 2. Configurar el Auto Updater
-  String feedURL = 'https://raw.githubusercontent.com/amautta19/flutter_application_1/master/appcast.xml';
+  String feedURL = 'https://raw.githubusercontent.com/amautta19/flutter_windows_version/refs/heads/master/appcast.xml';
   await autoUpdater.setFeedURL(feedURL);
   await autoUpdater.setScheduledCheckInterval(0); // 0 para que revise siempre al abrir (ideal para pruebas)
   await autoUpdater.checkForUpdates();
