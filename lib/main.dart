@@ -62,11 +62,11 @@ class _MyAppState extends State<MyApp> {
                 style: const TextStyle(fontSize: 16, color: Colors.blue),
               ),
               const SizedBox(height: 30),
-              ElevatedButton.icon(
-                onPressed: () => autoUpdater.checkForUpdates(),
-                icon: const Icon(Icons.update),
-                label: const Text('Buscar actualizaciones ahora'),
-              ),
+              // ElevatedButton.icon(
+              //   onPressed: () => autoUpdater.checkForUpdates(),
+              //   icon: const Icon(Icons.update),
+              //   label: const Text('Buscar actualizaciones ahora'),
+              // ),
             ],
           ),
         ),
