@@ -61,6 +61,7 @@ class _MyAppState extends State<MyApp> {
                 'Versión Actual: $_version',
                 style: const TextStyle(fontSize: 16, color: Colors.blue),
               ),
+              Text('Nueva versión generada', style: TextStyle(fontSize: 18, color: Colors.blueGrey),),
               const SizedBox(height: 30),
               ElevatedButton.icon(
                 onPressed: () => autoUpdater.checkForUpdates(),
