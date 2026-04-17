@@ -4,13 +4,13 @@
         <title>Actualizaciones de Remoto</title>
         <language>es</language>
         <item>
-            <title>Versión 1.3.0+1</title>
+            <title>Versión 1.4.0+1</title>
             <description>
             </description>
             <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
-            <sparkle:releaseNotesLink>https://github.com/amautta19/flutter_windows_version/releases/tag/v1.3.0+1</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/amautta19/flutter_windows_version/releases/download/v1.3.0/windows_version130.exe"
-                    sparkle:version="1.3.0+1"
+            <sparkle:releaseNotesLink>https://github.com/amautta19/flutter_windows_version/releases/tag/v1.4.0+1</sparkle:releaseNotesLink>
+            <enclosure url = "https://github.com/amautta19/flutter_windows_version/releases/download/v1.4.0%2B1/windows_version140.exe"
+                    sparkle:version="1.4.0+1"
                     sparkle:os="windows"
                     length="0"
                     type="application/octet-stream" />
